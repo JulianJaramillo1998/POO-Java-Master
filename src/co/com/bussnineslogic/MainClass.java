@@ -1,15 +1,12 @@
 package co.com.bussnineslogic;
 
-import co.com.beans.Aprendiz;
-import co.com.beans.Competencia;
-import co.com.beans.Ficha;
-import co.com.beans.Free;
-import co.com.beans.ProgramaFormacion;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 
 import javax.swing.JOptionPane;
+
+import co.com.beans.Free;
+import co.com.beans.ProgramaFormacion;
 
 
 public class MainClass {
@@ -38,7 +35,7 @@ public class MainClass {
        
 
         HashMap<String, Aprendiz> lista = new HashMap<String, Aprendiz>();
-        lista.put("roro",esteban);
+        lista.put("roros",esteban);
         lista.put("Diosa",daniel);
         lista.put("Jojo", jonathan);
     
